@@ -1,0 +1,189 @@
+.navbar-nav .nav-link {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 800;
+    color: #0b2265;
+    font-size: 15px;
+}
+
+.navbar-brand small {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-size: smaller;
+}
+
+.navbar-nav .nav-link svg{
+    margin-right: 3px;
+}
+
+/* member 1 / section 1 */
+.section1 {
+    background: #222946;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.section1 p {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+/* member 2 / section 2 */
+.section2 {
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+.section2 p {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 26.04px;
+    margin-top: 30px;
+}
+.form-label {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    display: block;
+    margin-bottom: 8px;
+}
+.form-control {
+    height: 40px;
+    border: 2px solid #060e33;
+    border-radius: 0;
+    box-shadow: none;
+}
+.form-control:focus {
+    border-color: #060e33;
+    box-shadow: none;
+}
+.btn {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 0;
+    color: white;
+    background-color: #e61e26;
+}
+.member-box {
+    background: white;
+    border: 2px solid #060e33;
+    border-radius: 15px;
+    box-shadow: #060e33;
+    padding: 60px 65px;
+    margin-top: 50px;
+    margin-bottom: -190px;
+}
+.member-box form{
+    width: 85%;
+    margin: auto;
+}
+.member-box h5 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.member-box a {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #060e33;
+}
+.member-info {
+    background: #2e3a62;
+    color: white;
+    padding: 200px 0 100px;
+}
+.member-info p {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 300;
+}
+.member-info a {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+}
+.member-info svg {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+/* footer */
+.footer-content {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-color: #060e33;
+    color: white;
+    display: block;
+}
+.image-footer {
+    width: 270px;
+    margin-left: -90px;
+}
+.footer-content h5 {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 55px;
+}
+.footer-content ul{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-content svg{
+    margin-right: 12px;
+}
+.footer-content li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+.footer-content a{
+    color: white;
+    text-decoration: none;
+}
+.footer-logo {
+    color: #e31b23;
+}
+.content-item {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.content-item a:hover {
+    color: #e31b23;
+}
+.footer-copyright {
+    background: #040c21;
+    height: 50px;
+    color: #909090;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.footer-copyright p {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    height: 20px;   
+    margin-top: 35px;
+    margin-left: -60px;
+}
+@media (max-width: 576px) {
+    .footer-copyright p {
+        font-size: 10px;
+        margin-top: 35px;
+        margin-left: 33px;
+    }
+}
